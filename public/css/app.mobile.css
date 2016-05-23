@@ -1,0 +1,322 @@
+/*Mobile adjustments*/
+html, body
+{
+
+	overflow-x : hidden;
+
+}
+
+.row
+{
+	max-width: 78rem;
+}
+
+.top-bar
+{
+	background: url(../img/menu.background.png);
+	font-family: 'Oswald', sans-serif;
+}
+
+.top-bar-section ul li
+{
+	/*background: none;*/
+	height: 60px;
+}
+
+.top-bar-section ul li a
+{
+	font-family: 'Oswald', sans-serif;	
+	font-size: 1.2em;
+	height: 60px;
+}
+
+
+.menu-background
+{
+	padding: 0px;
+	background: url(../img/menu.photo.png);
+}
+
+.fullWidth 
+{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.up-finder
+{
+	height: 10px;
+}
+
+.finder
+{
+	background: rgba(0,0,0,.7);
+	height: 100%;	
+
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;	
+}
+
+.finder input[type=search]
+{
+	font-family: 'Oswald', sans-serif;	
+	font-size: 1.2em;	
+	padding: 1.1em;
+
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;		
+}
+
+.finder select
+{	
+	font-size: 1.2em;	
+	font-family: 'Oswald', sans-serif;	
+	height: 2.5em;
+
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;		
+}
+
+#message
+{
+	color: white;
+	font-size: 0.80em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.second
+{
+	margin-top: 30px;
+}
+
+.second h2
+{
+
+	font-size: 1.8em;	
+	font-family: 'Oswald', sans-serif;		
+}
+
+.second .pleca
+{
+	
+}
+
+.destacado .imagen-destacada
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #E74C3C;
+}
+
+
+
+
+.destacado h4
+{
+	font-size: 1.4em;	
+	font-family: 'Oswald', sans-serif;			
+	text-transform: uppercase;
+}
+
+.destacado .price
+{
+	font-size: 1.2em;	
+	font-family: 'Oswald', sans-serif;				
+	font-weight: bold;
+	/*padding-top: 8px;*/
+	padding-bottom: 8px;
+}
+
+.destacado .brief
+{
+	font-size: .8em;	
+	font-family: Arial;
+	padding-bottom: 10px;
+}
+
+.destacado .brief2
+{
+	padding-top: 10px; 
+	font-size: .8em;	
+	font-family: Arial;
+	color: #666666;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.nivel2
+{
+	margin-bottom: 15px !important;
+}
+
+.nivel2 .imagen-destacado
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #2980b9;	
+}
+
+.nivel2 .price-second
+{
+	font-size: .85em;	
+	font-family: 'Oswald', sans-serif;				
+	font-weight: bold;	
+	color: #666666;
+}
+
+.price-propertype-big, .price-operation-big
+{
+	font-size: .85em;	
+	font-family: 'Oswald', sans-serif;				
+	font-weight: bold;	
+	color: #666666;
+}
+
+
+.nivel2 .price-propertype, .nivel2 .price-operation
+{
+	font-size: .65em;	
+	font-family: 'Oswald', sans-serif;				
+	font-weight: bold;	
+	color: #666666;
+}
+
+
+.nivel2 h5
+{
+	font-size: 1em;	
+	font-family: 'Oswald', sans-serif;			
+	text-transform: uppercase;
+}
+
+.nivel2 .brief-second
+{
+	font-size: .8em;	
+	font-family: Arial;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.button.spotlight:hover, .button.spotlight:focus 
+{
+	background-color: #E74C3C;
+}
+
+.button.spotlight
+{
+	background-color: #E74C3C;
+}
+
+
+.servicio .brief-servicio
+{
+	font-size: .9em;	
+	font-family: Arial;	
+	/*padding-top: 5px;*/
+	padding-bottom: 15px;	
+}
+
+footer
+{
+	background: url(../img/menu.background.png) repeat-x #2581BE;
+	height: 98px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-top: 25px !important;
+	height: 184px;	
+
+
+}
+
+#message
+{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-top: 3em;
+	margin-left: 1.7em;	
+}
+
+footer .columns
+{
+	padding-top: 45px;
+	text-align: center;
+}
+
+.advice
+{
+	background: #F0F0F0;
+	border: 1px solid #CCC;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;		
+    
+  -webkit-box-shadow: 2px 2px 5px #ccc;
+  -moz-box-shadow: 2px 2px 5px #ccc;
+  filter: shadow(color=#ccc, direction=135, strength=2);
+
+  text-align: left;
+}
+
+.advice h4
+{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+.advice ul li a
+{
+	font-weight: bold;
+}
+
+.advice ul li
+{
+	font-family: Arial;
+	font-size: .85em;
+	list-style-type: none;	
+	color: #666;
+}
+
+.zonas img
+{
+	border: solid 5px #2980b9;
+}
+
+.zonas h5
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+}
+
+h3
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;	
+}
+
+.fix-font75
+{
+	font-size: .85em;
+	line-height: 2.2em;
+}
+
+.filter-selector li.current a
+{
+	background-color: #E74C3C !important;
+	color: black !important;
+}
+
+ul.pagination li a
+{
+	font-size: .85em
+}
+
+.right-custom
+{
+	/*float: right !important;*/
+}
